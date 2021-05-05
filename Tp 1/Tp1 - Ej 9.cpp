@@ -13,9 +13,6 @@ void cantPersonasMenu (string fecha , string &fechaMenu1 , string &fechaMenu2 , 
 void calcPromedio (int suma , int cantFiestas , float &promPersonas) ;
 void displayFinal (int fiestaC , int fiestaS , int fiestaO , string fechaMenu1 , string fechaMenu2 , float promPersonas) ;
 
-
-
-
 int main () {
 	char tipo ;
 	string fecha , fechaMenu1 , fechaMenu2 ;
@@ -113,49 +110,3 @@ void displayFinal (int fiestaC , int fiestaS , int fiestaO , string fechaMenu1 ,
 	<< "Menu 2: " << fechaMenu2 << endl 
 	<< "Promedio de personas: " << promPersonas ;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
